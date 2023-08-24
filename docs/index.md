@@ -1,13 +1,29 @@
-# Start Launch
+# EndPoints
 
+The ** Template Expander Api ** accepts both the `GraphQl` and the `RESTFUL` Formats
 
+The `GraphQl` methods can accessed from this link 
+[graphql](http://164.68.103.68:85/graphql/)
 
-## In This article
+The `RESTFUL` methods can accessed from this link
+[rest](http://164.68.103.68:85/api/)
 
 [[toc]]
 
+## Queries
+
+The [queries](/guide/queries2)
 
 
-## OBJECTIVE
+## Mutations
 
-Document the TemplateExpanderApi and its' processes in details
+The [mutations](/guide/mutation2)
+
+
+
+
+
+## Mutations
+
+
+
