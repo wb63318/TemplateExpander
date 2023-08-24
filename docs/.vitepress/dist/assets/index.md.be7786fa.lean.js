@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,S as i}from"./chunks/framework.f15d8f8c.js";const f=JSON.parse('{"title":"Start Launch","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),n={name:"index.md"},r=i("",5),c=[r];function s(o,l,h,d,_,u){return e(),t("div",null,c)}const m=a(n,[["render",s]]);export{f as __pageData,m as default};
