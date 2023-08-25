@@ -1,17 +1,19 @@
 
 
 export default{
-    "title":"TemplateExpander Docs",
+    "title":" Axon Docs",
     themeConfig:{
             sidebar:[
                 
-                //{text:'EndPoint',link:'/index'},
+                {
+                    text:'Temple Expander ',
+                items:[
                 {text:'Template Expander Index',link:'/index'}, 
                 {text:'Queries / Get Requests',link:'/guide/queries'},
                 {text:'Mutations / Post Requests',link:'/guide/mutation'},
                 {text:'Examples',link:'/guide/example'},
-                    
-
+                    ],   
+                },
                 
                 
                 //{text:'EndPoint',link:'/index'},
