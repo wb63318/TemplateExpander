@@ -1,6 +1,16 @@
 # Mutation
 
-## Expand File Request
+## Expand Text Request Input
+
+| Fields | Datatype | Required |
+| :---: | :---: | :----: |
+|Data| JSON | No |
+|DataUrl | String |No|
+|Template | String | Yes|
+|TemplateUrl|String|No|
+
+
+## Expand File Request Input
 
 | Fields | Datatype | Required |
 | :---: | :---: | :----: |
@@ -10,6 +20,9 @@
 | File |  | No |
 | FileUrl | String | No|
 |OutputFormatFile | String | No |
+
+### NB:
+
 
 
 

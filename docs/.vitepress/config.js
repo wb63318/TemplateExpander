@@ -10,8 +10,17 @@ export default{
     themeConfig:{
             sidebar:[
 
-                {text:'EndPoint',link:'/index'},
-                {text:'EndPoint',link:'/index'},
+                //{text:'EndPoint',link:'/index'},
+                {text:'EndPoint',link:'/index',
+                items:[
+                    
+                        {text:'Queries',link:'/guide/queries2'},
+                        {text:'Mutations',link:'/guide/mutation'},
+                    
+
+                ],
+                },
+                //{text:'EndPoint',link:'/index'},
                 // {
                 //     'text': 'Guide',
                 //     collapsed:true,
