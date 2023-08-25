@@ -1,18 +1,12 @@
-const SideBarGuide =[
-    {text: 'Introduction',
-    collapsed:false,
 
-},
-]
 
 export default{
     "title":"TemplateExpander Docs",
     themeConfig:{
             sidebar:[
-
+                
                 //{text:'EndPoint',link:'/index'},
-                {text:'Index',link:'/index'}, 
-
+                {text:'Template Expander Index',link:'/index'}, 
                 {text:'Queries / Get Requests',link:'/guide/queries'},
                 {text:'Mutations / Post Requests',link:'/guide/mutation'},
                 {text:'Examples',link:'/guide/example'},
@@ -37,9 +31,13 @@ export default{
                 //     ]
                 // },
                 {
-                    'text': 'OTHERS',
+                    'text': 'EmailSender',
+
                     items:[
-                        {text:'Notes',link:'/guide/notes.md'},
+                        {text:'Email Index',link:'/guide/emailindex.md'},
+                        {text:'Queries / Get Requests ',link:'/guide/emailqueries.md'},
+                        {text:'Mutations / Post Requests',link:'/guide/emailmutations.md'},
+                        {text:'Examples',link:'/guide/emailexamples.md'}
                     ]
                 }
             ]
