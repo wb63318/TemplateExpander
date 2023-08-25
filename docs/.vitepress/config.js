@@ -11,15 +11,15 @@ export default{
             sidebar:[
 
                 //{text:'EndPoint',link:'/index'},
-                {text:'EndPoint',link:'/index',
-                items:[
-                    
-                        {text:'Queries',link:'/guide/queries'},
-                        {text:'Mutations',link:'/guide/mutation'},
+                {text:'Index',link:'/index'}, 
+
+                {text:'Queries / Get Requests',link:'/guide/queries'},
+                {text:'Mutations / Post Requests',link:'/guide/mutation'},
+                {text:'Examples',link:'/guide/example'},
                     
 
-                ],
-                },
+                
+                
                 //{text:'EndPoint',link:'/index'},
                 // {
                 //     'text': 'Guide',

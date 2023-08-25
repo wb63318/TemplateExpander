@@ -1,6 +1,19 @@
-# Mutation
+# Mutation / Post Requests
 
-## Expand Text Request Input
+## 1. Expand Text 
+
+This endpoint is used for generating a text from a template.
+
+- `GRAPHQl` endpoint : expandText
+- `REST` endpoint : /api/expander/expandText
+
+**How it works:** 
+
+- You provide the endpoint with a template and a data source and then it generates a text for you.
+
+- **NB:** The template should have placeholders for the data you would want there. See [examples](/guide/example) for more details.
+
+### Input Fields
 
 | Fields | Datatype | Required |
 | :---: | :---: | :----: |
@@ -10,14 +23,37 @@
 |TemplateUrl|String|No|
 
 
+### Output Fields
+
+
+| Fields | DataType | 
+|:---: | :---: |
+| Code| int |
+| Message | String |
+| Result | String |
+| Success | Boolean |
+
 ### Validation Notice :
 
-The fields in the table are all `nullable` but requires ** at least**  `1` data source each : `templateUrl or template` and `data or dataUrl` .
+- The fields in the table are all `nullable` 
+- If none of those sources are provided, a `ValidationError` stating that ` At least one data source is required ` error will be displayed.
 
-If none of those sources are provided, a `ValidationError` stating that ` At least one data source is required ` error will be displayed.
+
+## 2. Expand File 
+
+This endpoint is used for generating a file from a template.
+
+- `GRAPHQl` endpoint : templateIsValid
+- `REST` endpoint : /api/expander/expandFile
+
+**How it works:**
+
+- You provide the endpoint with a template and a data source and then it generates a document for you.
+
+**NB:** The template should have placeholders for the data you would want there. See [examples](/guide/example) for more details.
 
 
-## Expand File Request Input
+### Input Fields
 
 | Fields | Datatype | Required |
 | :---: | :---: | :----: |
@@ -28,39 +64,26 @@ If none of those sources are provided, a `ValidationError` stating that ` At lea
 | FileUrl | String | No|
 |OutputFormatFile | String | No |
 
+
+### Output Fields
+
+
+| Fields | DataType | 
+|:---: | :---: |
+| Code| int |
+| Message | String |
+| Result | String |
+| Success | Boolean |
+
 ### Validation Notice:
 
-The fields in the table are all `nullable` but requires ** at least**  `1` data source each : `file or fileUrl or b64File` and `data or dataUrl` .
-
-If none of those sources are provided, a `ValidationError` stating that ` At least one data source is required ` error will be displayed.
-
-
-### NB:
-
-**The Picture Insertion Logic**
-
-::: details Code
-
-```csharp
-
-if (e.FieldName.StartsWith("Picture:"))
-{
-    switch (e.Value)
-    {
-        case string x:
-            // Picture insertion logic based on conditions
-            break;
-        default:
-            break;
-    }
-}
+- The fields in the table are all `nullable` 
+- If none of those sources are provided, a `ValidationError` stating that ` At least one data source is required ` error will be displayed.
 
 
-```
 
-:::
 
-The code above check if the `FiledName` start with `Picture`. If ***`true`*** it proceeds to handle the picture insertion logic above based on the type of the  `e.value` .
+
 
 
 
