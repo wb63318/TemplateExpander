@@ -64,6 +64,11 @@ This endpoint is used for generating a file from a template.
 | FileUrl | String | No|
 |OutputFormatFile | String | No |
 
+**NB:** 
+- The file is also known as the template
+- The fileUrl is also knowns as the templateUrl
+- The default output File format is a `PDF`
+
 
 ### Output Fields
 
