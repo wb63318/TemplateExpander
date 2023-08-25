@@ -1,6 +1,6 @@
 # Queries
 
-The queries method returns a `string` value
+## CallResultOfBoolean Object
 
 | Fields | DataType | Required |
 |:---: | :---: | :----:|
@@ -8,3 +8,5 @@ The queries method returns a `string` value
 | Message | String | Yes |
 | Result | Boolean | Yes |
 | Success | Boolean | Yes |
+
+### The queries method returns a `string` value.

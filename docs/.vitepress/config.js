@@ -14,7 +14,7 @@ export default{
                 {text:'EndPoint',link:'/index',
                 items:[
                     
-                        {text:'Queries',link:'/guide/queries2'},
+                        {text:'Queries',link:'/guide/queries'},
                         {text:'Mutations',link:'/guide/mutation'},
                     
 
