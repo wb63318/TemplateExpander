@@ -24,4 +24,4 @@
 | Result | Boolean |
 | Success | Boolean |
 
-### The queries method returns a `string` value.
+<!-- ### The queries method returns a `string` value. -->

@@ -14,7 +14,7 @@ This endpoint is used for sending an email.
 
 | Fields | Datatype | Required |
 | :---: | :---: | :----: |
-|From| string | Yes |
+|From| String | Yes |
 |To | String |Yes|
 |Message | String | Yes|
 |SendAsText|Bool|Yes|
@@ -26,7 +26,7 @@ This endpoint is used for sending an email.
 
 | Fields | DataType | 
 |:---: | :---: |
-| Code| int |
+| Code| Int |
 | Message | String |
 | Result | Guid |
 | Success | Boolean |
@@ -50,7 +50,7 @@ This endpoint is used for sending and email with a file attachment.
 
 | Fields | Datatype | Required |
 | :---: | :---: | :----: |
-|From| string | Yes |
+|From| String | Yes |
 |To | String |Yes|
 |Message | String | Yes|
 |SendAsText|Bool|Yes|
@@ -63,7 +63,7 @@ This endpoint is used for sending and email with a file attachment.
 
 | Fields | DataType | 
 |:---: | :---: |
-| Code| int |
+| Code| Int |
 | Message | String |
 | Result | Guid |
 | Success | Boolean |

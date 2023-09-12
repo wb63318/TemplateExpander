@@ -9,7 +9,6 @@ This endpoint is used in checking the status of a single email.
 | Fields | DataType | Required |
 |:---: | :---: | :----:|
 | EmailId| Guid | Yes |
-| Bus | IMessageBus| |
 
 ### Output Fields
 
@@ -18,7 +17,7 @@ This endpoint is used in checking the status of a single email.
 |:---: | :---: |
 | Code| int |
 | Message | String |
-| Result | T |
+| Result | EmailState |
 | Success | Boolean |
 
 ## 2. EmailStatuses
@@ -28,22 +27,42 @@ This endpoint is used in checking the status of a single email.
 ###  Input Fields
 | Fields | DataType | Required |
 |:---: | :---: | :----:|
-| Request| MultiEmailStatusRequest | Yes |
-| Bus | IMessageBus| |
-
+| EmailIds | List of Guids | Yes |
 ### Output Fields
 
 
 | Fields | DataType |
 |:---: | :---: |
-| Code| int |
+| Code | Int |
 | Message | String |
-| Result | T |
+| Result | EmailState |
 | Success | Boolean |
 
-**NB:** 
+
+### Email State
+
+| Fields | DataType |
+|:---: | :---: |
+| id | Guid |
+| status | EmailStatus |
+| response | String |
+| lastTried | DateTime |
+
+
+### Email Status
+
+| Values | 
+|:---: |
+| Pending |
+| Success |
+| Failed |
+
+
+
+
+<!-- **NB:** 
 
 - `MultiEmailStatusRequest` refers to list email Ids to be provided.
-- `T` datatype refers to
+- `T` datatype refers to -->
 
 
