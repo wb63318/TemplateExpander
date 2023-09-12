@@ -10,7 +10,7 @@
 ###  Input Fields
 | Fields | DataType | Required |
 |:---: | :---: | :----:|
-| Template| String | Yes |
+| template| String | Yes |
 
 
 
@@ -19,9 +19,9 @@
 
 | Fields | DataType |
 |:---: | :---: |
-| Code| int |
-| Message | String |
-| Result | Boolean |
-| Success | Boolean |
+| code| int |
+| message | String |
+| result | Boolean |
+| success | Boolean |
 
 <!-- ### The queries method returns a `string` value. -->

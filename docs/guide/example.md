@@ -13,6 +13,7 @@ The names of the placeholders should be the exact same names of the `Keys` in th
 This is an example for the `Expand File Mutation`
 
 ::: details  JSON Data
+
 ```json
 {
 

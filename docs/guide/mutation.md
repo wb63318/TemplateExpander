@@ -17,10 +17,10 @@ This endpoint is used for generating a text from a template.
 
 | Fields | Datatype | Required |
 | :---: | :---: | :----: |
-|Data| JSON | No |
-|DataUrl | String |No|
-|Template | String | Yes|
-|TemplateUrl|String|No|
+|data| JSON | No |
+|dataUrl | String |No|
+|template | String | Yes|
+|templateUrl|String|No|
 
 
 ### Output Fields
@@ -28,10 +28,10 @@ This endpoint is used for generating a text from a template.
 
 | Fields | DataType | 
 |:---: | :---: |
-| Code| int |
-| Message | String |
-| Result | String |
-| Success | Boolean |
+| code| int |
+| message | String |
+| result | String |
+| success | Boolean |
 
 ### Validation Notice :
 
@@ -57,12 +57,12 @@ This endpoint is used for generating a file from a template.
 
 | Fields | Datatype | Required |
 | :---: | :---: | :----: |
-| B64File | string | No |
-| Data | Json | No |
-| DataUrl | String | No |
-| File | IFile | No |
-| FileUrl | String | No|
-|OutputFormatFile | String | No |
+| b64File | string | No |
+| data | Json | No |
+| dataUrl | String | No |
+| file | IFile | No |
+| fileUrl | String | No|
+|outputFormatFile | String | No |
 
 **NB:** 
 - The file is also known as the template
@@ -75,10 +75,10 @@ This endpoint is used for generating a file from a template.
 
 | Fields | DataType | 
 |:---: | :---: |
-| Code| int |
-| Message | String |
-| Result | String |
-| Success | Boolean |
+| code| int |
+| message | String |
+| result | String |
+| success | Boolean |
 
 ### Validation Notice:
 

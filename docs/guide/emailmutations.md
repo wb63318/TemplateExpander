@@ -14,10 +14,10 @@ This endpoint is used for sending an email.
 
 | Fields | Datatype | Required |
 | :---: | :---: | :----: |
-|From| String | Yes |
-|To | String |Yes|
-|Message | String | Yes|
-|SendAsText|Bool|Yes|
+|from| String | Yes |
+|to | String |Yes|
+|message | String | Yes|
+|sendAsText|Bool|Yes|
 
 
 
@@ -26,10 +26,10 @@ This endpoint is used for sending an email.
 
 | Fields | DataType | 
 |:---: | :---: |
-| Code| Int |
-| Message | String |
-| Result | Guid |
-| Success | Boolean |
+| code| Int |
+| message | String |
+| result | Guid |
+| success | Boolean |
 
 ### Validation Notice :
 
@@ -51,11 +51,11 @@ This endpoint is used for sending and email with a file attachment.
 | Fields | Datatype | Required |
 | :---: | :---: | :----: |
 |From| String | Yes |
-|To | String |Yes|
-|Message | String | Yes|
-|SendAsText|Bool|Yes|
-|Files| IFIle|No|
-|FileUrls| List`<string>`|No|
+|to | String |Yes|
+|message | String | Yes|
+|sendAsText|Bool|Yes|
+|files| IFIle|No|
+|fileUrls| List`<string>`|No|
 
 
 ### Output Fields
@@ -63,10 +63,10 @@ This endpoint is used for sending and email with a file attachment.
 
 | Fields | DataType | 
 |:---: | :---: |
-| Code| Int |
-| Message | String |
-| Result | Guid |
-| Success | Boolean |
+| code| Int |
+| message | String |
+| result | Guid |
+| success | Boolean |
 
 ### Validation Notice :
 

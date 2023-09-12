@@ -8,17 +8,17 @@ This endpoint is used in checking the status of a single email.
 ###  Input Fields
 | Fields | DataType | Required |
 |:---: | :---: | :----:|
-| EmailId| Guid | Yes |
+| emailId| Guid | Yes |
 
 ### Output Fields
 
 
 | Fields | DataType |
 |:---: | :---: |
-| Code| int |
-| Message | String |
-| Result | EmailState |
-| Success | Boolean |
+| code| int |
+| message | String |
+| result | EmailState |
+| success | Boolean |
 
 ## 2. EmailStatuses
     This endpoint is used in checking the status of a provided list of emails.
@@ -27,16 +27,16 @@ This endpoint is used in checking the status of a single email.
 ###  Input Fields
 | Fields | DataType | Required |
 |:---: | :---: | :----:|
-| EmailIds | List of Guids | Yes |
+| emailIds | List of Guids | Yes |
 ### Output Fields
 
 
 | Fields | DataType |
 |:---: | :---: |
-| Code | Int |
-| Message | String |
-| Result | EmailState |
-| Success | Boolean |
+| code | Int |
+| message | String |
+| result | EmailState |
+| success | Boolean |
 
 
 ### Email State
@@ -53,9 +53,9 @@ This endpoint is used in checking the status of a single email.
 
 | Values | 
 |:---: |
-| Pending |
-| Success |
-| Failed |
+| pending |
+| success |
+| failed |
 
 
 
